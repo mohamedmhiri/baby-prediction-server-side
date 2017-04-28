@@ -1,0 +1,24 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="temperature <= 36.45\ngini = 0.4444\nsamples = 600\nvalue = [400, 200]"] ;
+1 [label="gini = 0.0\nsamples = 50\nvalue = [0, 50]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="temperature <= 37.55\ngini = 0.3967\nsamples = 550\nvalue = [400, 150]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="temperature <= 36.95\ngini = 0.32\nsamples = 500\nvalue = [400, 100]"] ;
+2 -> 3 ;
+4 [label="heartbeat <= 59.5\ngini = 0.2599\nsamples = 215\nvalue = [182, 33]"] ;
+3 -> 4 ;
+5 [label="gini = 0.2488\nsamples = 206\nvalue = [176, 30]"] ;
+4 -> 5 ;
+6 [label="gini = 0.4444\nsamples = 9\nvalue = [6, 3]"] ;
+4 -> 6 ;
+7 [label="temperature <= 37.05\ngini = 0.3596\nsamples = 285\nvalue = [218, 67]"] ;
+3 -> 7 ;
+8 [label="gini = 0.4849\nsamples = 46\nvalue = [27, 19]"] ;
+7 -> 8 ;
+9 [label="gini = 0.321\nsamples = 239\nvalue = [191, 48]"] ;
+7 -> 9 ;
+10 [label="gini = 0.0\nsamples = 50\nvalue = [0, 50]"] ;
+2 -> 10 ;
+}
