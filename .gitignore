@@ -1,3 +1,9 @@
 djangorest/_env/
 djangorest/my_env/
-.idea/
+.idea/data.iml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
