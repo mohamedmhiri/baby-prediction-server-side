@@ -4,7 +4,6 @@
 
 Baby Prediction Server side is a Django application
 ## Installation
-#### How Do I YOBS ?
 first Install GIT from https://git-scm.com/,
 
 Install PYTHON (3.6) from https://www.python.org/downloads/
